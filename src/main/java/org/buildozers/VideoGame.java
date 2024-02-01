@@ -26,6 +26,7 @@ public class VideoGame {
         this.name = name;
         this.id = UUID.randomUUID();
         this.lastEditionDate = LocalDateTime.now();
+        log.info("Creating new Video Game : {} {} {}", this.id, this.name, this.lastEditionDate);
     }
 
 }
